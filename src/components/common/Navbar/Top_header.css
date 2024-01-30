@@ -1,0 +1,187 @@
+    .Top_header-Container-Copy {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 110px;
+    width: 10px;
+    align-items: center;
+    font-family: 'Roboto';
+    }
+
+    .ContainerHeader {
+        display: flex;
+        z-index: 20 !important;
+        flex-direction: row;
+        height: 100%;
+        justify-content: flex-start;
+        max-width: 1000px;
+        margin-left: 80px;
+      }
+  
+    .content-Top{
+      display: flex;
+      z-index: 25 !important;
+      text-align: start;
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 0.8px;
+      padding-top: 0px;
+    }
+
+    .content-Top a{
+      text-decoration: none;
+    }
+
+
+    .navbar-logo {
+      display: flex;
+      margin-top: 1rem;
+      height: 80px;
+      width: 80px;
+      margin-left: 3rem;
+    }
+
+    .navbar-logo-movil{
+      display: none
+    }
+
+    .Link-Top-Header {
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      }
+
+    .Linea {
+        display: block;
+        border-top: 0.5px solid rgb(245, 245, 245);
+        height: 0px;
+        max-width: 100%;
+        padding: 0;
+        margin-bottom: 5px ;
+      }
+
+    /*--------------------- Opciones Derecha ----------------------*/
+    .content-Top-Op{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      position: absolute;
+      width: 90%;
+    }
+
+    .content-Top-options{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      margin-right: 3rem;
+    }
+
+    .content-Top-options-list{
+      margin-top: 2.5rem;
+      padding: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .content-Top-options-list-icons-set{
+      margin-top: 2.5rem;
+      margin-left: 15px;
+      padding: 10px;
+    }
+    .content-Top-options-list-searchform-set{
+      margin-top: 1.7rem;
+      margin-left: 15px;
+      padding: 10px;
+    }
+
+    .content-Top-options-list-icons{
+      margin-top: 2.5rem;
+      padding: 10px;
+    }
+
+    .content-Top-options-list-link{
+      color:rgb(0, 0, 0);
+      font-family: 'Lexend', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.2px;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all .25s ease-in-out;
+    }
+
+    .content-Top-options-list-link:hover{
+      cursor: pointer;
+      color:#049e1e;
+
+    }
+
+    .content-top__icon{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      margin-left: 1%;
+      padding-left: 0.1%;
+      margin-top: 0.1%;
+      height: 20px;
+      right: 7%;
+      color: rgb(148, 145, 145);
+      transition: all .25s ease-in-out;
+    }
+    .content-top__icon:hover{
+      transform: scale(1.3);
+      color: #049e1e;
+    }
+
+
+  
+
+
+
+
+    @media screen and (max-width: 960px) {
+      
+      .Top_header-Container-Copy {
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: rgb(255, 255, 255);
+        height: 80px;
+        z-index: 120 !important;
+        }
+
+        .ContainerHeader {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          height: 100%;
+          margin: auto;
+          justify-content: flex-start;
+          padding-right: 2rem;
+        }
+
+        .navbar-logo {
+          display: none;
+        }
+    
+
+      .navbar-logo-movil{
+        display: block;
+        position: absolute;
+        margin-top: 0.9rem;
+        height: 0.9rem;
+        width: 2.9rem;
+        margin-left: 0.9rem;
+      }
+
+      /*------------------lista de Opciones---------------*/
+
+      .content-Top-Op{
+        display: none;
+      }
+
+      
+      
+    }
+    

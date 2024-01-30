@@ -1,0 +1,346 @@
+
+ul{
+    text-decoration: none;
+}
+li a{
+    text-decoration-line: none
+}
+
+
+
+/* Color del Footer*/
+.color__footer{
+    background-color: #e9e6e6;
+    background-color: #f3f3f3;
+    background-color: #24262b;
+    padding-top: 2rem;
+    margin: auto;
+}
+
+
+
+/* Contenedor Principal*/
+.footer__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+/*Contenedor del Logo */
+.footer__Logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 320px;
+}
+.footer__logo__img img {
+    margin-top: 0.2em;
+    height: 75%;
+    width: 6rem;
+    margin-left: 2.5rem;
+}
+.footer__navbar__logo:hover {
+  cursor: pointer;
+}
+
+/* Iconos Redes Sociales*/
+.footer__logo__IconsSocial{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.footer__logo__IconsSocial__item{
+    color: #ffffff;
+    width: 16px;
+    height: 16px;
+    margin-right: 1.5rem;
+    transition: all .25s ease-in-out;
+}
+.footer__logo__IconsSocial__item:hover{
+    cursor: pointer;
+    color: #47A01A;
+    transform: scale(1.4);
+}
+
+
+
+/* Contenedor Principal de Informacion Footer */
+.footer__info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* Contenedor Categorias productos */
+.footer__info__products{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.footer__info__products__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.footer__info__products__item{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.footer__span{
+    padding: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all .25s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+.footer__span:hover{
+    color:#47A01A;
+    cursor: pointer;
+}
+
+
+/* Contenedor informacion Contacto */
+.footer__info__contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+.footer__info__contact__list{
+    display: block;
+    width: 40%;
+    justify-content: center;
+}
+.footer__info__contact__listbtn{
+    display: block;
+    width: 20%;
+    justify-content: center;
+}
+.footer__info__contact__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.footer__info__contact__iconText{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.footer__info__contact__iconTextbtn{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.footer__icon__contact{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    color: #47A01A;
+    margin-top: 0.1rem;
+}
+.footer__contact__span{
+    display: flex;
+    width: 200px;
+    margin-left: 1rem;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.footer__contact__span:hover{
+    cursor: pointer;
+}
+
+/*Estilo boton footer*/
+.footer__info__contact__item a{
+    text-decoration-line: none;
+}
+.footer__btn__outline{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 0.7rem 2rem;
+    border: 1px solid #47A01A;
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-family: "Montserrat";
+    font-weight: 500;  
+}
+.footer__btn__outline:hover{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: #47A01A;
+    border: 1px solid #47A01A;
+}
+
+
+/**/
+.text-center{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.text-Copy{
+    color: #fff !important;
+    background-color: #0f141f;
+    letter-spacing: 0px;
+    font-family: "Gotham";
+    font-size: 11px;
+    padding: 0.4rem;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+    /*Contenedor del Logo */
+.footer__Logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 320px;
+    margin-left: 2rem;
+}
+.footer__logo__img img {
+    margin-top: 0.2em;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+}
+
+
+/* Contenedor Principal*/
+.footer__container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+padding: 0rem;
+padding-bottom: 2rem;
+}
+
+.footer__logo__IconsSocial{
+    margin-left: 1rem;
+}
+
+/* Contenedor Principal de Informacion Footer */
+.footer__info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+/* Contenedor Categorias productos */
+.footer__info__products{
+    display: grid;
+    width: 100%;
+}
+.footer__info__products__list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.footer__info__products__item{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    text-decoration-line: none; 
+    text-decoration: none;
+    list-style: none; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer__span{
+    padding: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all .25s ease-in-out;
+    text-decoration: none;
+}
+.footer__span:hover{
+    color:#47A01A;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Contenedor informacion Contacto */
+.footer__info__contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.footer__info__contact__list{
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+.footer__info__contact__listbtn{
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+.footer__info__contact__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.footer__info__contact__iconText{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.footer__info__contact__iconTextbtn{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.footer__icon__contact{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    color: #47A01A;
+    margin-top: 0.1rem;
+}
+.footer__contact__span{
+    display: flex;
+    width: 200px;
+    margin-left: 1rem;
+    font-size: 12px;
+}
+.footer__contact__span:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+}

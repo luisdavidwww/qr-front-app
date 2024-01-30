@@ -1,0 +1,343 @@
+/*Contenedor Principal*/
+
+.us-container-Movil{
+  display: none;
+}
+
+.body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  /*Contenedor Secundario*/
+  .us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /*--------Imagen Principal-----------*/
+
+
+  .us-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5rem;
+    overflow: hidden;
+  }
+
+  .us-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .us-img:hover {
+    width: 300px;
+    transform: scale(1.1);
+  }
+
+
+  /*--------Contenido Información-----------*/
+
+  .us-wrap-Info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 43rem;
+    max-width: 850px;
+    margin-top: 0rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+  }
+  
+  .title-basic-start{
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    font-size: 42px;
+    line-height: 55px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration-color: #00ff00;
+  }
+
+  .subtitle-basic-start{
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+    line-height: 55px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration-color: #00ff00;
+    margin: 0px;
+  }
+  
+  .us-text{
+    width: 80%;
+  }
+
+  .text-basic{
+    text-align: start;
+    font-family: "Poppins Regular";
+    margin-top: 1.3rem;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23px
+  }
+
+
+  .us-text a{
+    text-decoration: none;
+  }
+
+  .btn-outline{
+    display: flex;
+    z-index: 100;
+    background-color: transparent;
+    padding: 0.7rem 3rem;
+    border: 1px solid #47A01A;
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1.5rem; 
+}
+
+.btn-outline:hover{
+  color: rgb(255, 255, 255);
+  background-color: #47A01A;
+  border: 1px solid #47A01A;
+}
+
+.btn-text{
+  font-family: "Montserrat"; 
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  color: #47A01A;
+}
+
+
+
+
+.btn-outline-descarga{
+  display: flex;
+  z-index: 100;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  padding: 0.7rem 3rem;
+  border: 1px solid #47A01A;
+  transition: all 0.3s ease-out;
+  border-radius: 2px;
+  text-decoration-line: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1.5rem; 
+}
+
+.btn-outline-descarga:hover{
+color: rgb(255, 255, 255);
+background-color: #47A01A;
+border: 1px solid #47A01A;
+}
+
+.btn-text-descarga{
+font-family: "Montserrat"; 
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+letter-spacing: 0.4px;
+line-height: 20px;
+color: #47A01A;
+}
+
+
+.alert-container{
+  display: flex;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+
+
+  @media screen and (max-width: 960px) {
+
+    .body-container {
+      width: 100%;
+      padding: 0rem;
+    }
+
+    .us-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 2%;
+    }
+
+    .us-wrap-Info {
+      width: 100%;
+      padding: 0rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .us-wrap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      transition: all 0.3s linear;
+      margin: auto;
+      padding: 0rem;
+  }
+
+  .us-img-Movil {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      transition: all 0.2s linear;
+    }
+
+
+
+    .Container__Label-Email {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1rem;
+      width: 80%;
+  }
+
+  .Container__Label {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 80%;
+}
+
+
+    
+
+    .title-basic-start{
+      text-align: center;
+      font-family: "Montserrat";
+      letter-spacing: -1px;
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 40px;
+      color: #000000;
+      padding-top: 100px;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin: 0px;
+    }
+
+    .us-text-Movil{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      margin: 0 ;
+    }
+    
+    .text-basic-Movil{
+      text-align: center;
+      font-size: 15px;
+      line-height: 26px;
+      font-family: "Poppins Regular";
+      color: rgb(0, 0, 0);
+      padding-top: 1rem;   
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin: 0px;
+    }
+      .btn-Container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .btn-Container a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-decoration: none;
+      }
+      .btn-outline{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background-color: transparent;
+        padding: 1.1rem 3rem;
+        border: 1.5px solid #47A01A;
+        transition: all 0.3s ease-out;
+        border-radius: 2px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;  
+        margin: auto;
+        margin-top: 1.5rem;
+        font-weight: 500;
+        
+    }
+    
+    .btn-outline:hover{
+      color: rgb(255, 255, 255);
+      background-color: #47A01A;
+      border: 1px solid #47A01A;
+      font-family: "Gotham Medium";
+    }
+    
+    .btn-text{
+      justify-content: center;
+      font-family: "Gotham";
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      line-height: 20px
+    }
+
+
+    .alert-container{
+      display: flex;
+      justify-content: center;
+      width: 70%;
+      padding-top: 1rem;
+    }
+    
+    
+
+    
+  
+}
